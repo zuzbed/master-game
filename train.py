@@ -8,6 +8,7 @@ from data_preparation import Data
 from game import Game
 from policy import Policy
 
+# different approach https://github.com/egeromin/mastermind
 
 def train(episodes_nbr, save_every):
     data = Data()
